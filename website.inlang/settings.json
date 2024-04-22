@@ -13,7 +13,7 @@
     "messageLintRule.inlang.missingTranslation": "error"
   },
   "plugin.inlang.json": {
-    "pathPattern": "./languages/{languageTag}.json",
+    "pathPattern": "./code/languages/{languageTag}.json",
     "variableReferencePattern": ["{", "}"]
   }
 }
