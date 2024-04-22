@@ -1,1 +1,4 @@
-{ "hello": "We are the company behind inlang.com and lix." }
+{
+  "hello": "We are the company behind inlang.com and lix.",
+  "wolrd": "Berlin"
+}
