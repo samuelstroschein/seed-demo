@@ -1,8 +1,8 @@
 export default () => {
   return (
     <body>
-      <h1>Welcome to our website</h1>
-      <p>We are the company behind inlang.com and lix.</p>
+      <h1>{t("happy_elephant_blue")}</h1>
+      <p>{t("hello_car")}</p>
     </body>
   );
 };
