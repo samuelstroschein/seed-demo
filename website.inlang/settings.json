@@ -1,7 +1,16 @@
 {
   "$schema": "https://inlang.com/schema/project-settings",
   "sourceLanguageTag": "en",
-  "languageTags": ["en", "de"],
+  "languageTags": [
+    "en",
+    "cn",
+    "de",
+    "es",
+    "fr",
+    "hi",
+    "hu",
+    "nl"
+  ],
   "modules": [
     "https://cdn.jsdelivr.net/npm/@inlang/plugin-json@latest/dist/index.js",
     "https://cdn.jsdelivr.net/npm/@inlang/plugin-t-function-matcher@latest/dist/index.js",
@@ -14,6 +23,9 @@
   },
   "plugin.inlang.json": {
     "pathPattern": "./code/languages/{languageTag}.json",
-    "variableReferencePattern": ["{", "}"]
+    "variableReferencePattern": [
+      "{",
+      "}"
+    ]
   }
 }
